@@ -21,7 +21,7 @@ import javax.inject.Inject
 import scala.concurrent.ExecutionContext
 
 class CookieConsentFilter @Inject()(implicit ec: ExecutionContext) extends EssentialFilter {
-
+// This filter is not intended to stay forever, but rather to alleviate an issue with a bug, as per PLATUI-3500
   override def apply(next: EssentialAction): EssentialAction = EssentialAction { requestHeader =>
     next(requestHeader).map { result =>
       val modifiedCookies = requestHeader.cookies.map { c =>
