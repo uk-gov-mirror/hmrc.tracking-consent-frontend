@@ -12,5 +12,7 @@
   "GHSA-7p8r-x3mc-p8w7": "fast-uri: devDependency only, pulled in via eslint, no risk given our usage",
   "GHSA-22jq-vg5j-6vgg": "ip-address: devDependency only, no risk given our usage",
   "GHSA-4xrf-jv44-h6hh": "ip-address: devDependency only, no risk given our usage",
-  "GHSA-mwp4-54f8-5fhr": "ip-address: devDependency only, no risk given our usage"
+  "GHSA-mwp4-54f8-5fhr": "ip-address: devDependency only, no risk given our usage",
+  "GHSA-2v37-7h3g-55p8": "nanoid: devDependency only, no risk given our usage",
+  "GHSA-jmr9-qjv8-65gv": "extract-zip: devDependency only, no risk given our usage"
 }
